@@ -4,7 +4,8 @@ import { Hero } from '../../components/hero/Hero';
 import ColorOfTheDay from '../../components/colorOfTheDay/colorOfTheDay';
 import TrustedBy from '../../components/trustedBy/TrustedBy';
 import OurTools from '../../components/ourTools/OurTools';
-
+import PluginsAndApps from '../../components/pluginsAndApps/pluginsAndApps';
+import MoreUsefulResources from '../../components/moreUsefulResources/MoreUsefulResources';
 
 const MainPage = () => (
     <DefaultLayout>
@@ -13,6 +14,8 @@ const MainPage = () => (
         <TrustedBy />
         <ColorOfTheDay />
         <OurTools />
+        <MoreUsefulResources />
+        <PluginsAndApps />
 
     </DefaultLayout>
 );
