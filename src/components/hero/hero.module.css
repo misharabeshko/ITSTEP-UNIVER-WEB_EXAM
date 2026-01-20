@@ -1,0 +1,113 @@
+.heroSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.mainContainer {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+/* ЛІВА ЧАСТИНА */
+.leftColumn {
+    flex: 1;
+    position: relative;
+}
+
+.textWrapper {
+    max-width: 650px;
+    position: relative;
+}
+
+.heroTitle {
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 0.9;
+    letter-spacing: -5px;
+    margin: 0 0 30px 0;
+}
+
+
+
+
+/* "AND MUCH MORE" */
+.andMuchMoreBadge {
+    position: absolute;
+    width: 150px;
+    right: 40px;
+    top: 150px;
+    transform: rotate(-15deg);
+    z-index: 10;
+    pointer-events: none;
+}
+
+.heroDescription {
+    font-size: 20px;
+    width: 60%;
+    color: #333;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 15px;
+}
+
+.primaryBtn {
+    background-color: #0066ff;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.secondaryBtn {
+    background-color: #f0f0f0;
+    color: #000;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+/* ПРАВА ЧАСТИНА */
+.rightColumn {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.palettePreviewCard {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1.4;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.1);
+}
+
+.paletteColorBar {
+    flex: 1;
+    transition: background-color 0.8s ease;
+}
+
+.hexLabel {
+    display: none;
+}

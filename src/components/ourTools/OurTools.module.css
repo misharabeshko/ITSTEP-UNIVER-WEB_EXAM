@@ -1,0 +1,80 @@
+.ourToolsSection {
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #676767;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--base-bg);
+    padding: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 280px;
+}
+
+.cartTitle {
+    color: var(--accent-color);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    transition: color 0.3s ease;
+}
+
+.description {
+    color: var(--accent-color);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: var(--accent-color);
+    transition: color 0.3s ease;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+
+
+.card:hover {
+    transform: scale(1.03);
+    background-color: var(--accent-color);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover .cartTitle,
+.card:hover .description,
+.card:hover .footer {
+    color: #ffffff;
+}

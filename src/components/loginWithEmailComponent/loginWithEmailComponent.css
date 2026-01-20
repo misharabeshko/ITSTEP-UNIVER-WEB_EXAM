@@ -1,0 +1,21 @@
+.navigation-footer {
+    margin-top: 24px;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666 !important;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.back-link:hover {
+    color: #000 !important;
+}
+
+.title {
+    line-height: 1.1;
+    margin-bottom: 12px;
+}

@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.logoLink {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 28px;
+    color: #0066ff;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.navItem {
+    cursor: pointer;
+    color: #444;
+}
+
+.arrow {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.goPro {
+    color: #ff4d94;
+}
+
+.divider {
+    width: 1px;
+    height: 30px;
+    background-color: #e0e0e0;
+    margin: 0 20px;
+}
+
+.authButtons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.signIn {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.signUp {
+    text-decoration: none;
+    background-color: #0066ff;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: opacity 0.2s;
+}
+
+.signUp:hover {
+    opacity: 0.9;
+}

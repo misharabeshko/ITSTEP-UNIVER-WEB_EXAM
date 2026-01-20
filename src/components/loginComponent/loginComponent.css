@@ -1,0 +1,67 @@
+.social-body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    padding: 16px;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.social-button:hover {
+    background-color: #ebebeb;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.auth-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+    color: #999;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.auth-divider span {
+    padding: 0 15px;
+}
+
+
+.login-link {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #666;
+}
+
+.login-link a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
